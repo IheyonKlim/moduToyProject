@@ -1,0 +1,12 @@
+a,b,c = input().split()
+
+d = list()
+e = int(a)
+f = int(b)
+g = int(c)
+
+d.append(e)
+d.append(f)
+d.append(g)
+d.sort()
+print(d[1])

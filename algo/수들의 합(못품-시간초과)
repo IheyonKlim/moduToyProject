@@ -1,0 +1,10 @@
+n = int(input())
+
+r = 0
+i = 1
+
+while n >= 0:
+  r = i   
+  n = n - i
+  i = i + 1  
+print(r)

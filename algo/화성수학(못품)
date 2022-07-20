@@ -1,0 +1,10 @@
+??? = input().split("")
+
+if input == "#":
+  answer -= 7
+elif input == "%":
+  answer += 5
+elif input == "@":
+  answer *= 3
+    
+print("%0.2f" % answer)
